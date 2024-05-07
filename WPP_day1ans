@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Day and Time</title>
+</head>
+<body>
 
+    <div id="days"> </div>
+    <div id="times"></div>
+
+    <script> 
+        let weekList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        let today = weekList[new Date().getDay()];        
+        document.getElementById("days").innerHTML = "Today is : " + today;
+        
+        let currentTime = new Date();
+        let hour = currentTime.getHours();
+        let formathour_AM_PM = "AM" ;
+        if(hour === 0){
+            hour += 12;
+            formathour_AM_PM = "AM";
+        }
+        else if (hour > 12) {
+            hour -= 12;
+            formathour_AM_PM = "PM";
+        }
+        let minute = currentTime.getMinutes();
+        let second = currentTime.getSeconds();
+        
+        if (second < 10) {
+            second = "0" + second
+        }
+        document.getElementById("times").innerHTML = "Current time is : " + hour + " " + formathour_AM_PM + " : " + minute + " : " + second;
+    </script>   
+    
+</body>
+</html>
