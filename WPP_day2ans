@@ -1,0 +1,11 @@
+<h1>Hello, My name is Anupam Singh</h1> 
+
+<h2>Print content</h2> 
+
+<input type="button" value="Print" onclick="print_current_page()" /> 
+
+<script type = "text/javascript"> 
+	function print_current_page() { 
+		window.print(); 
+	} 
+</script>
