@@ -1,0 +1,14 @@
+let cureentday = new Date();
+let christmasYear = currentday.getFullYear();
+
+if (currentday.getMonth() == 11 && currentday.getDate() > 25) {
+  christmasYear = christmasYear + 1;
+}
+
+let christmasDate = new Date(christmasYear, 11, 25);
+let dayMilliseconds = 1000 * 60 * 60 * 24;
+
+let remainingDays = Math.ceil(
+  (christmasDate.getTime() - currentday.getTime()) /
+   (dayMilliseconds)
+);
