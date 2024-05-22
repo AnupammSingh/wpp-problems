@@ -10,4 +10,8 @@ DAY 3: Write a JavaScript program where the program takes a random integer betwe
 
 DAY 4: Write a JavaScript program to calculate the days left before Christmas.
 
+DAY 5: Write a JavaScript program to remove a character at the specified position in a given string and return the modified string.
+
+DAY 6: Write a JavaScript program to check whether a given positive number is a multiple of 3 or 7.
+
 
