@@ -1,0 +1,12 @@
+function removeCharacter(pos) {
+    originalStr = "GeeksForGeeks";
+    newStr =
+        originalStr.substr(0, pos - 1)+
+        originalStr.substr(
+            pos,
+            originalStr.length
+        );
+    console.log(newStr);
+}
+
+removeCharacter(4);
