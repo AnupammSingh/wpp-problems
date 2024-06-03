@@ -14,4 +14,6 @@ DAY 5: Write a JavaScript program to remove a character at the specified positio
 
 DAY 6: Write a JavaScript program to check whether a given positive number is a multiple of 3 or 7.
 
+DAY 7: Write a JavaScript program to create a string from a given string. This is done by taking the last 3 characters and adding them at both the front and back. The string length must be 3 or more.
+
 
