@@ -1,0 +1,8 @@
+ function newString(n){
+   var text=n.substring(n.length-3,n.length)
+   console.log(text)
+   
+   var new_strings = text+n+text 
+   console.log(new_strings)
+ }
+ newString("jayant")
