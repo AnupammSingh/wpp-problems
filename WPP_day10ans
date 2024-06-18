@@ -1,0 +1,11 @@
+function lowercase(str) {
+    if (str.length < 3) {
+        return str.toUpperCase();
+    }
+    first_one = (str.substring(0, 3)).toLowerCase();
+    last_one = str.substring(3, str.length);
+    return first_one + last_one;
+}
+console.log(lowercase("an"));
+console.log(lowercase("ANu"));
+console.log(lowercase("AnuPAM"));
