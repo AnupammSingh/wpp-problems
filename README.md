@@ -18,7 +18,9 @@ DAY 7: Write a JavaScript program to create a string from a given string. This i
 
 DAY 8: Write a JavaScript program to check whether a string starts with 'Java'  if it does not then  return False.
 
-DAY 9: Write a JavaScript program to find the closest value to 100 from two numerical values
+DAY 9: Write a JavaScript program to find the closest value to 100 from two numerical values.
+
+DAY 10: Write a JavaScript program to produce a new string that has the first 3 characters in lower case from a given string. If the string length is less than 3 convert all the characters to upper case.
 
 
 
