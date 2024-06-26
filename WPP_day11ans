@@ -1,0 +1,14 @@
+function order_numbers(x, y, z ) {
+  if ( y > x && z > y) 
+  {
+    return "strict mode";    
+  }
+  else if(z > y) 
+   return "Soft mode";
+  else
+    return "Undefinded";
+}
+
+console.log(order_numbers(10,15,31));
+console.log(order_numbers(24,22,31));
+console.log(order_numbers(50,21,15));
