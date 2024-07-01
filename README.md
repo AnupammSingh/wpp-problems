@@ -29,6 +29,10 @@ DAY 11: Write a JavaScript program to check whether three given numbers are incr
 
 DAY 12: Write a JavaScript program to reverse a given string.
 
+DAY 13: Write a JavaScript program to count the number of vowels in a given string.
+
+DAY 14: Write a JavaScript program to extract the first half of an even string. 
+
 
 
 
