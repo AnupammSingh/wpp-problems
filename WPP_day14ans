@@ -1,0 +1,11 @@
+const first_part = (str) => {
+    if (str.length % 2 === 0) {
+        return str.slice(0, str.length / 2);
+    }
+    return str;
+};
+
+console.log(first_part("Python"));
+console.log(first_part("JavaScript"));
+console.log(first_part("PHP"));
+console.log(first_part("Anupam"));
