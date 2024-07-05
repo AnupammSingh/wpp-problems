@@ -31,7 +31,13 @@ DAY 12: Write a JavaScript program to reverse a given string.
 
 DAY 13: Write a JavaScript program to count the number of vowels in a given string.
 
-DAY 14: Write a JavaScript program to extract the first half of an even string. 
+DAY 14: Write a JavaScript program to extract the first half of an even string.
+
+DAY 15: Write a JavaScript program to compute the sum of three elements of a given array of integers of length 3.
+
+DAY 16: Write a JavaScript program to swap the first and last elements of a given array of integers. The array length should be at least 1.
+
+
 
 
 
