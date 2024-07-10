@@ -21,8 +21,8 @@ DAY 8: Write a JavaScript program to check whether a string starts with 'Java'  
 
 DAY 9: Write a JavaScript program to find the closest value to 100 from two numerical values.
 
-DAY 10: Write a JavaScript program to produce a new string that has the first 3 characters in lower case from a given string. If the string length is less than 3 convert all the 
-        characters to upper case.
+DAY 10: Write a JavaScript program to produce a new string that has the first 3 characters in lower case from a given string. If the string length is less than 3 convert all 
+        the characters to upper case.
 
 DAY 11: Write a JavaScript program to check whether three given numbers are increasing in strict or in soft mode.
         Note: Strict mode -> 10, 15, 31 : Soft mode -> 24, 22, 31 or 22, 22, 31
@@ -36,6 +36,13 @@ DAY 14: Write a JavaScript program to extract the first half of an even string.
 DAY 15: Write a JavaScript program to compute the sum of three elements of a given array of integers of length 3.
 
 DAY 16: Write a JavaScript program to swap the first and last elements of a given array of integers. The array length should be at least 1.
+
+DAY 17: Write a JavaScript program to replace each character in a given string with the next in the English alphabet.
+        Note: 'a' will be replaced by 'b' or 'z' would be replaced by 'a'.
+
+DAY 18: Write a JavaScript program to find the maximum difference between any two adjacent elements of a given array of integers. Write a JavaScript program to find the 
+        maximum difference between any two adjacent elements of a given array of integers. Write a JavaScript program to find the maximum difference between any two adjacent 
+        elements of a given array of integers. 
 
 
 
