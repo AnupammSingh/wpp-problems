@@ -1,0 +1,26 @@
+function NextLetter(text) {
+    var stri = text.split('');
+    for (var i = 0; i < stri.length; i++) {
+        switch(stri[i]) {
+          case ' ':
+            break;
+          case 'z':
+            stri[i] = 'a';
+            break;
+          case 'Z':     
+            stri[i] = 'A';
+            break;
+          default:
+            stri[i] = String.fromCharCode(1 + stri[i].charCodeAt(0));
+        }
+
+        switch(stri[i]) {
+          case 'a': case 'e': case 'i': case 'o': case 'u':
+            stri[i] = stri[i].toUpperCase();
+        }
+    }
+    return stri.join('');
+}
+console.log(NextLetter("ANUPAM"));
+console.log(NextLetter("PARTH"));
+console.log(NextLetter("GOOGLE"));
