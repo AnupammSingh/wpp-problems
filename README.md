@@ -42,7 +42,14 @@ DAY 17: Write a JavaScript program to replace each character in a given string w
 
 DAY 18: Write a JavaScript program to find the maximum difference between any two adjacent elements of a given array of integers. Write a JavaScript program to find the 
         maximum difference between any two adjacent elements of a given array of integers. Write a JavaScript program to find the maximum difference between any two adjacent 
-        elements of a given array of integers. 
+        elements of a given array of integers.
+
+DAY 19: Write a JavaScript program to find the number appearing most frequently in a given array of integers.
+
+DAY 20: Write a JavaScript program to reverse the order of bits in an integer. 
+        14 -> 00001110 -> 01110000 -> 112
+        56 -> 00111000 -> 00011100 -> 28
+        234 -> 11101010 -> 01010111 -> 87
 
 
 
