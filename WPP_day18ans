@@ -1,0 +1,19 @@
+function maxAdjDiff(arr) {
+    if (arr.length < 2) {
+        return 0;
+    }
+
+    let mxDiff = 0;
+
+    for (let i = 1; i < arr.length; i++) {
+        let diff = arr[i] - arr[i - 1];
+        if (diff < 0) {
+            diff = -diff;
+        }
+        if (diff > mxDiff) {
+            mxDiff = diff;
+        }
+    }
+
+    return mxDiff;
+}
