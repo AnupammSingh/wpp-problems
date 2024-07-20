@@ -1,0 +1,26 @@
+function mstFreqNum(arr) {
+    if (arr.length === 0) {
+        return null;
+    }
+
+    let freq = {};
+    let mxCount = 0;
+    let mstFreq = arr[0];
+
+    for (let i = 0; i < arr.length; i++) {
+        let num = arr[i];
+        if (freq[num] == null) {
+            freq[num] = 1;
+        } else {
+            freq[num]++;
+        }
+
+      
+        if (freq[num] > mxCount) {
+            mxCount = freq[num];
+            mstFreq = num;
+        }
+    }
+
+    return mstFreq;
+}
