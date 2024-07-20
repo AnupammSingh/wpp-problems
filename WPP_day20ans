@@ -1,0 +1,18 @@
+function reverseBit(num) {
+    let res = 0;
+    let numBits = 0;
+    let temp = num;
+
+    while (temp > 0) {
+        temp = Math.floor(temp / 2);
+        numBits++;
+    }
+
+    for (let i = 0; i < numBits; i++) {
+        let bit = num & 1;
+        res = (res << 1) | bit;
+        num = num >> 1;
+    }
+
+    return res;
+}
