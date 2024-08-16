@@ -1,0 +1,7 @@
+function removeDuplic(str) {
+    let charArr = str.split('');
+    let resultArr = charArray.filter((char, index, self) => {
+        return self.indexOf(char) === self.lastIndexOf(char);
+    });
+    return resultArray.join('');
+}
