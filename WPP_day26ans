@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy to Clipboard</title>
+    <style>
+        #copy-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="text-copy" value="Hello, world" readonly>
+    <button id="copy-buttons">Copy Clipboard</button>
+
+    <script>
+        document.getElementById('copy-buttons').addEventListener('click', function() {
+            const textField = document.getElementById('text-copy');
+
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = textField.value;
+            document.body.appendChild(tempTextArea);
+
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            alert('Text copied to clipboard');
+        });
+    </script>
+
+</body>
+</html>
