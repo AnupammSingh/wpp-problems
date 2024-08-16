@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Click</title>
+    <style>
+        .clickable {
+            padding: 20px;
+            margin: 20px;
+            background-color: lightblue;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="clickable-elements" class="clickable">
+        Double-click!
+    </div>
+
+    <script>
+        function handleDoubleClicks(event) {
+            event.target.style.color = 'red';
+        }
+
+        const element = document.getElementById('clickable-elements');
+        element.addEventListener('dblclick', handleDoubleClicks);
+    </script>
+
+</body>
+</html>
