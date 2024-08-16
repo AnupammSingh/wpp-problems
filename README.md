@@ -51,6 +51,19 @@ DAY 20: Write a JavaScript program to reverse the order of bits in an integer.
         56 -> 00111000 -> 00011100 -> 28
         234 -> 11101010 -> 01010111 -> 87
 
+DAY 21: Write a JavaScript program to remove all characters from a given string that appear more than once.
+
+DAY 22: Write a JavaScript program to create a dropdown menu that shows and hides its options when clicked.
+
+DAY 23: Write a JavaScript function that changes the background color of an element when a mouse enters it.
+
+DAY 24: Write a JavaScript program to implement drag-and-drop functionality to allow users to reorder items in a list
+
+DAY 25: Write a JavaScript function that listens for a double click on an element and performs a specific action.
+
+DAY 26: Write a JavaScript program to copy a string to the clipboard.
+
+DAY 27: Write a JavaScript program to filter out the specified values from a specified array. Return the original array without filtered values.
 
 
 
