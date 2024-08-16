@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+    <style>
+        .color-box {
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 200px;
+            font-size: 20px;
+            margin: 50px;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="color-boxes" 
+         onmouseenters="changeBackColor(this, 'lightblue')" 
+         onmouseleaves="resetBackColor(this)">Hover!</div>
+
+    <script>
+        function changeBackColor(element, color) {
+            element.style.backgroundColor = color;
+        }
+
+        function resetBackColor(element) {
+            element.style.backgroundColor = 'lightgray';
+        }
+    </script>
+
+</body>
+</html>
