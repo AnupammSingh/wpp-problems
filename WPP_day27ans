@@ -1,0 +1,3 @@
+function filterTheArray(arr, valueToFilter) {
+    return arr.filter(item => !valueToFilter.includes(item));
+}
