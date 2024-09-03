@@ -65,6 +65,13 @@ DAY 26: Write a JavaScript program to copy a string to the clipboard.
 
 DAY 27: Write a JavaScript program to filter out the specified values from a specified array. Return the original array without filtered values.
 
+DAY 28: Write a JavaScript program to convert an asynchronous function to return a promise.
+
+DAY 29: Write a JavaScript function that takes a number as a parameter and throws a custom 'Error' if the number is not an integer.
+
+DAY 30: Write a JavaScript function that fetches data from multiple APIs concurrently and returns a combined result using Promises and 'Promise.all()'. 
+
+DAY 31: Write a JavaScript function that fetches data from an API and cancels the request if it takes longer than a specified time.
 
 
 
